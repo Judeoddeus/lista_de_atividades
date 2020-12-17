@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 009</title>
+</head>
+<body>
+    <h2>Faça um rpograma que calcule o número médio de alunos por turma.
+         Para isso, peça quantidade de turmas e a quantidade para cada turma. 
+         as turmas não podem ter mais de 40 alunos.</h2>
+
+         <form>
+            <label for="quantidadeDeTurmas">Quantidade de Turmas:</label>
+            <input type="number" id="quantidadeDeTurmas" max="10" onchange="CriarTurmas();"><br><br>
+            <div id="campos"></div>
+            
+            <label for="inicial">Turma 1:</label>
+            <input type="number" id="turma1" max="40"><br><br>
+    
+            <label for="inicial">Turma 2:</label>
+            <input type="number" id="turma2" max="40"><br><br>
+    
+            <label for="inicial">Turma 3:</label>
+            <input type="number" id="turma3" max="40"><br><br>
+
+            <label for="inicial">Turma 4:</label>
+            <input type="number" id="turma3" max="40"><br><br>
+    
+    
+            <button type="button" onclick="MediaDeAlunos();">Calcular a média de alunos</button><br><br>
+        </form>
+    
+        <div id="resultado"></div>
+    
+        <script src="js/exe-009.js"></script>    
+
+</body>
+</html>
